@@ -1,0 +1,17 @@
+import wollok.game.*
+import personaje.*
+import objetos.*
+import niveles.*
+program vdTest {
+
+	game.title("Video Juego")
+	game.height(10)
+	game.width(10)
+	game.ground("tierra.png")
+	
+	nivel1.configurarNivel()
+	
+
+	game.start()
+
+}
